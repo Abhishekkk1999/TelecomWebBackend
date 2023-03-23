@@ -1,0 +1,48 @@
+"2022-12-06 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+""2022-12-06 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - 15 mappings in 'requestMappingHandlerMapping'
+""2022-12-06 [main] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerAdapter - ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+""2022-12-06 [main] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+""2022-12-06 [main] DEBUG o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver - ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+""2022-12-06 [HikariPool-1 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m52s615ms869µs300ns).
+""2022-12-06 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected StandardServletMultipartResolver
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected AcceptHeaderLocaleResolver
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected FixedThemeResolver
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2c8c42c
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Detected org.springframework.web.servlet.support.SessionFlashMapManager@4f1aa2bc
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+""2022-12-06 [http-nio-8082-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - GET "/webjars/springfox-swagger-ui/css/typography.css", parameters={}
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.w.s.h.SimpleUrlHandlerMapping - Mapped to ResourceHttpRequestHandler [classpath [META-INF/resources/webjars/]]
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.w.s.r.ResourceHttpRequestHandler - Resource not found
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Completed 404 NOT_FOUND
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - "ERROR" dispatch for GET "/error", parameters={}
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;q=0.1', given [text/css, */*;q=0.1] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [{timestamp=Tue Dec 06 14:34:40 IST 2022, status=404, error=Not Found, path=/webjars/springfox-swagge (truncated)...]
+""2022-12-06 [http-nio-8082-exec-1] DEBUG o.s.web.servlet.DispatcherServlet - Exiting from "ERROR" dispatch, status 404
+""2022-12-06 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/ui", parameters={}
+""2022-12-06 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#uiConfiguration()
+""2022-12-06 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-3] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.UiConfiguration@25bd5c6]
+""2022-12-06 [http-nio-8082-exec-3] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-12-06 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources", parameters={}
+""2022-12-06 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#swaggerResources()
+""2022-12-06 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-4] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [[springfox.documentation.swagger.web.SwaggerResource@6d8c6966]]
+""2022-12-06 [http-nio-8082-exec-4] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-12-06 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - GET "/v2/api-docs", parameters={}
+""2022-12-06 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json;charset=utf-8', given [application/json;charset=utf-8, */*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-5] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.spring.web.json.Json@675bc395]
+""2022-12-06 [http-nio-8082-exec-5] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-12-06 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - GET "/swagger-resources/configuration/security", parameters={}
+""2022-12-06 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to springfox.documentation.swagger.web.ApiResourceController#securityConfiguration()
+""2022-12-06 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [application/json, text/javascript, */*;q=0.01] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-6] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [springfox.documentation.swagger.web.SecurityConfiguration@2337df4d]
+""2022-12-06 [http-nio-8082-exec-6] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+""2022-12-06 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - GET "/connection/get/1", parameters={}
+""2022-12-06 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped to com.ibm.cna.telecom.controller.ConnectionController#getConnectionById(Integer)
+""2022-12-06 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+""2022-12-06 [http-nio-8082-exec-8] DEBUG o.s.w.s.m.m.a.HttpEntityMethodProcessor - Writing [Connection [id=1, connectionNumber=158656, connectionPlan=Fiber, name=shyam, status=active]]
+""2022-12-06 [http-nio-8082-exec-8] DEBUG o.s.web.servlet.DispatcherServlet - Completed 200 OK
+"
